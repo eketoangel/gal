@@ -289,14 +289,14 @@ screen quick_menu():
             yalign 1.0
 
             #textbutton _("Назад") action Rollback()
-            textbutton _("История") action ShowMenu('history')
+            textbutton _("Історія") action ShowMenu('history')
             textbutton _("Пропуск") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Авто") action Preference("auto-forward", "toggle")
-            textbutton _("Сохранить") action ShowMenu('save')
-            textbutton _("Загрузить") action ShowMenu('load')
+            textbutton _("Зберегти") action ShowMenu('save')
+            textbutton _("Завантажити") action ShowMenu('load')
             #textbutton _("Б.Сохр") action QuickSave()
             #textbutton _("Б.Загр") action QuickLoad()
-            textbutton _("Настройки") action ShowMenu('preferences')
+            textbutton _("Налаштування") action ShowMenu('preferences')
 
 
 ## Данный код гарантирует, что экран быстрого меню будет показан в игре в любое
